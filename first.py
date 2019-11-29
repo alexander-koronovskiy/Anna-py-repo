@@ -20,11 +20,11 @@ d = a // 100
 if(b > c):
     if (b > d):
         print(b)
-elif(c > b):
+if(c > b):
     if(c > d):
             print(c)
-elif(d > b):
+if(d > b):
     if (d > c):
         print(d)
-elif(c == b == d):
+if(c == b == d):
     print(c)

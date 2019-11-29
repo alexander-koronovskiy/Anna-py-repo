@@ -30,11 +30,11 @@ else:
 
 '''
 # first wrong program in 1.6
-a=input()
-b=input()
-c=input()
-d= input()
-if (a in d or b in d or c in d):
+first_num =input()
+second_num =input()
+third_num =input()
+catalog = input()
+if (first_num in catalog or second_num in catalog or third_num in catalog):
     print("YES")
 else:
     print("NO")
